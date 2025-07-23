@@ -1,4 +1,3 @@
-# video-game-data-analysis
 # Video Game Sales Analysis
 
 This project analyzes a dataset of global video game sales to uncover key trends across platforms, genres, and regions. Using Python and essential data analysis libraries, it performs an exploratory analysis and visualization to identify market insights.
