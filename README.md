@@ -1,14 +1,32 @@
 # video-game-data-analysis
-Exploratory Data Analysis on video game sales data using Python. Includes insights on top platforms, best-selling titles, and genre trends across regions. Built with Pandas, Matplotlib, and Seaborn as part of my data analysis portfolio.
-This project explores a dataset of video games with the goal of uncovering key insights into sales trends, platform performance, and genre popularity. Using Python and libraries such as Pandas, Matplotlib, and Seaborn, the notebook performs an Exploratory Data Analysis (EDA) to answer questions like:
+# Video Game Sales Analysis
 
-Which platforms have the highest number of releases?
+This project analyzes a dataset of global video game sales to uncover key trends across platforms, genres, and regions. Using Python and essential data analysis libraries, it performs an exploratory analysis and visualization to identify market insights.
 
-What are the best-selling games by region?
+## Dataset
+- File: `games.csv`
+- Columns: Game title, Platform, Release year, Genre, Publisher, Sales by region (NA, EU, JP, Global)
+- Context: Data sourced from public datasets tracking video game sales performance over time.
 
-How have game releases evolved over the years?
+## Key Findings
+- Platforms like PlayStation and Nintendo DS dominate the number of releases.
+- Action, Sports, and Shooter games are the most popular genres globally.
+- North America consistently leads in regional sales.
+- Industry sales peaked around 2008–2010 before gradually declining.
 
-Are there any noticeable differences in popularity between genres?
+## Tools & Technologies
+- Python
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
 
-The dataset includes game titles, release years, genres, publishers, and global/regional sales figures. This project is part of my data analysis portfolio and demonstrates my ability to clean, manipulate, and visualize real-world datasets.
+## Notebook
+- [View notebook](./videogames_anlaysis_notebook.ipynb)
 
+## Run in Google Colab
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/felixvejar/video-game-sales-analysis/blob/main/videogames_anlaysis_notebook.ipynb)
+
+---
+
+> This project is part of my data analysis portfolio. Feedback and suggestions are welcome!
